@@ -72,6 +72,23 @@
                 font-weight: normal;
                 color: #EA80B0;
             }
+
+            .flex-video {
+                position: relative;
+                padding-top: 1.5625rem;
+                padding-bottom: 67.5%;
+                height: 0;
+                margin-bottom: 1rem;
+                overflow: hidden;
+            }
+
+            .flex-video iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
         </style>
     </head>
     <body>
@@ -79,7 +96,9 @@
             <h1><strong>painkillers</strong></h1>
             <h1>for dad</h1>
             <hr />
-            <iframe width="560" height="315" src="//www.youtube.com/embed/Ur01LOBwEVI" frameborder="0" allowfullscreen></iframe>
+            <div class="flex-video">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/Ur01LOBwEVI" frameborder="0" allowfullscreen></iframe>
+            </div>
             <hr />
             <div class="stats">
                 <strong>Donations:</strong> 8<br />
