@@ -6,83 +6,9 @@
         <title>painkillers for dad</title>
         <meta name="description" content="A year ago my father was diagnosed with stage-4 stomach and oesophageal cancer. It was deemed inoperable. He's had as much non-invasive surgery and radiation as he can without it directly killing him." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
-            body {
-                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-                font-size: 20px;
-                line-height: 30px;
-                color: #333;
-                cursor: default;
-            }
-
-            .container {
-                margin: 0 auto;
-                position: relative;
-                max-width: 560px;
-                padding: 1em;
-            }
-
-            h1 {
-              text-align: center;
-              font-weight: normal;
-              font-size: 68px;
-            }
-
-            h2, h3 {
-                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-                font-size: 26px;
-                line-height: 42px;
-                font-weight: normal;
-                color: #EA80B0;
-            }
-
-            h3 {
-                font-size: 20px;
-                line-height: 30px;
-            }
-
-            hr {
-                margin: 30px 0;
-                color: #EA80B0;
-                border: 0;
-                border-top: solid 1px #EA80B0;
-                height: 1px;
-                overflow: hidden;
-                opacity: 0.4;
-            }
-
-            .stats {
-                font-size: 26px;
-                line-height: 52px;
-            }
-
-            .stats p {
-                font-size: 26px;
-                line-height: 42px;
-            }
-
-            strong, a {
-                font-weight: normal;
-                color: #EA80B0;
-            }
-
-            .flex-video {
-                position: relative;
-                padding-top: 1.5625rem;
-                padding-bottom: 67.5%;
-                height: 0;
-                margin-bottom: 1rem;
-                overflow: hidden;
-            }
-
-            .flex-video iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-        </style>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="container">
@@ -90,13 +16,29 @@
             <h1>for dad</h1>
             <hr />
             <div class="flex-video">
-                <iframe width="560" height="315" src="//www.youtube.com/embed/Ur01LOBwEVI" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/Ur01LOBwEVI" frameborder="0" allowfullscreen></iframe>
             </div>
             <hr />
             <div class="stats">
-                <strong>Donations:</strong> 35<br />
-                <strong>Raised:</strong> $2,284<br />
-                <strong>Target:</strong> $3000
+
+              <div class="row">
+                <div class="donation-meter col">
+                  <strong class="goal">$3000</strong>
+                  <span class="glass">
+                      <strong class="total" style="bottom: 77%">$2,284</strong>
+                      <span class="amount" style="height: 77%"></span>
+                  </span>
+                </div>
+
+                <div class="col">
+                  <br>
+                  <strong>Donations:</strong> 35<br />
+                  <strong>Raised:</strong> $2,284<br />
+                  <strong>Target:</strong> $3000
+                </div>
+              </div>
+
+
                 <p>If you would like to donate, please use <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=info@tonypitt.co.za&item_name=painkillers+for+dad">Paypal to send money to <strong>info@tonypitt.co.za</strong></a>. I'll be happy to talk you through the process. If you don't want to use Paypal, but still would like to donate, please speak to me and I will help however I can.</p>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -153,5 +95,8 @@
                 <p>Please spread the word on <a href="https://www.facebook.com/sharer/sharer.php?u=http://tonypitt.co.za">Facebook</a> or <a href="https://twitter.com/intent/tweet?text=painkillers%20for%20dad:&url=http://tonypitt.co.za/&via=assertchris">Twitter</a>.</p>
             </div>
         </div>
+
+
+
     </body>
 </html>
